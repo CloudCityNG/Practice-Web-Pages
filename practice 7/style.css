@@ -1,0 +1,103 @@
+body{font-family: 'Source Sans Pro', sans-serif;}
+
+.aboveNav{background-color: #002B36;
+          }
+
+
+.navbar-collapse{border: none;}
+
+
+.navbar{height: 5em;
+        padding-bottom: 2em;}
+
+.navbar, #myNavbar, .navbar-collapse, collapse{background-color: #073642;
+        }
+
+.nav.navbar-nav.navbar-right li a{color: #E0E5E7;
+                                  font-weight: bold;
+                                  font-size: 1.2em;
+                                  padding-top: 1.3em;
+                                  padding-bottom: 1.3em;
+                                  }
+.nav.navbar-nav.navbar-right li a:hover{border-radius: 15px;
+                                        margin: 0;
+                                        padding-top: 0.5em;
+                                        padding-bottom: 0.5em;
+                                        background-color: red;}
+
+.navbar-default, .container-fluid, .navbar{border-radius: 0px;
+                                           border: none;
+                                           margin: 0;}
+
+div.linkIcons{display: inline-block;
+              padding-top: 1.3em;
+              padding-bottom: 1.3em;}
+
+.bellowNav{background-color: #72D0EB;
+           color: white;
+           font-size: 4em;
+           position: relative;
+           z-index: 1;
+           padding-top: 0.5em;
+           padding-bottom: 1em;
+
+           }
+
+nav{position: relative;
+    z-index: 2;}
+
+.bellowNav h1{font-weight: bold;
+              margin: 0;
+}
+
+.centerText{text-align: center;}
+
+
+.mainContent{text-align: justify;}
+
+.mainContent p{color: #586E75;
+   font-size: 1.2em;}
+
+.mainContent li{color: #586E75;
+   font-size: 1.2em;}
+
+.mainContent h1{color: #DC322F;
+                font-family: serif;
+                font-size: 1.6em;}
+
+.mainContent h2{color: #27B3D9;
+                font-family: serif;
+                font-size: 1.5em;}
+
+pre > code{text-align: left;}                
+
+.bg{background-color: #F2F5F8;}
+
+.mainContent > .col-md-8{background-color: white;
+                         border-left: 4px solid #E4EAEC;
+                         border-right: 4px solid #E4EAEC;}
+
+
+.aa{font-size: 1.2em;}
+
+
+.aa:hover{text-decoration: none;
+
+          color: saddlebrown;}
+
+.footer{background-color: #002B36;
+        color: white;}
+
+
+.footer a{text-decoration: none;
+          color: #839496;
+          display: block;}
+
+
+.footer a:hover{color: red;}
+
+
+.footer h2{font-size: 1.5em;
+}
+
+.footer p{font-size: 0.7em;}

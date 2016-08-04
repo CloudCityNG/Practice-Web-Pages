@@ -1,0 +1,126 @@
+body{font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;}
+
+.top{background: url(./images/header.jpg) no-repeat;
+     background-size: cover;    }
+
+#logo{letter-spacing: 0.42em;
+      margin-left: 1em;}
+
+.navbar{background-color: transparent;
+        border-color: #F1C6A7;}
+
+.navbar-header span{color: #F8E6D8;}
+
+.nav.navbar-nav.navbar-right li a{color: #F8E6D8;}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{color: #9ACD32 !important;
+                                               background-color: transparent;}
+
+.front{text-align: center;
+            margin-top: 18em;
+            margin-bottom: 22em;
+            color: white;
+            }
+
+.front > h1{font-size: 6em;
+                 font-weight: 100;}
+
+.front > p{font-size: 1.5em;
+                color: #CAC4BF;}
+
+.front > button , .thirdContainer button, .sixthContainer button{border-color: #9ACD32;
+                     background-color: #9ACD32;
+                     border-radius: 50px;
+                     padding: 0.7em 2em 0.7em 2em;
+                     font-size: 1.2em;
+                     color: white;} button{border-color: #9ACD32;
+                     background-color: #9ACD32;
+                     border-radius: 50px;
+                     padding: 0.7em 2em 0.7em 2em;
+                     font-size: 1.2em;
+                     color: white;}
+
+.forthContainer button{border-color: white;
+                     background-color: white;
+                     border-radius: 50px;
+                     padding: 0.7em 2em 0.7em 2em;
+                     font-size: 1.2em;
+                     color: black;}
+
+
+.secondContainer{background-color: #9ACD32;
+            padding: 5em 25em 5em 25em;
+            text-align: center;
+            color: white;}
+
+.secondContainer span{font-size: 5em;}
+
+.secondContainer p{font-size: 1em;}
+
+
+
+.thirdContainer, .forthContainer{padding-top: 6em;
+             padding-bottom: 6em;}
+
+.thirdContainer p{color: #7B7783;
+                  font-size: 1.5em;}
+
+.forthContainer{background-color: #222222;
+                }
+
+.forthContainer p{color: #90B3B3;
+                  font-size: 1.5em;}
+
+.forthContainer h2{color: white;}
+
+.fifthContainer{padding: 0;
+                margin-top: 2em;}
+
+.fifthContainer h1{color: white;
+                   font-size: 2.5em;
+                   padding: 2em;
+                   text-align: center;
+                   }
+.fifthContainer > .c1{background: url(./images/writing.jpg) no-repeat;
+                      background-size: cover;
+                      padding: 0em;
+                     }   
+
+.fifthContainer > .c1:hover, .fifthContainer > .c2:hover, .fifthContainer > .c3:hover{box-shadow: inset 0 0 0 10px rgba(255,0,0,0.4);                }   
+
+
+.fifthContainer > .c2{background: url(./images/concert.jpg) no-repeat;
+                      background-size: cover;
+                      padding: 0em;
+                                         }
+
+.fifthContainer > .c3{background: url(./images/pencil_sharpener.jpg) no-repeat;
+                      background-size: cover;
+                      padding: 0em;
+                   }
+
+.sixthContainer{padding: 5em 17em 5em 17em;
+                text-align: center;
+                }
+
+.sixthContainer p{color: #90B3B3;
+                  font-size: 1.5em;}
+
+.sixthContainer span{font-size: 4em;
+                      color: #9ACD32;}                  
+
+
+.seventhContainer{background-color: #9ACD32;
+                  color: white;
+                  text-align: center;
+                  padding-top: 5em;
+                  padding-bottom: 5em;}
+
+.seventhContainer p{font-size: 1.5em;}
+.seventhContainer span{font-size: 4em;} 
+
+.eightContainer{text-align: center;
+                padding-top: 1.5em;
+                padding-bottom: 1.5em;}         

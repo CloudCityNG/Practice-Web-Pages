@@ -1,0 +1,273 @@
+nav, form
+{
+   display: inline;
+}
+
+#headerLinks
+{
+   display: inline;
+   float: right;
+}
+
+#searchIcon
+{
+   /*+placement: -3px 10px;*/
+   position: relative;
+   left: -3px;
+   top: 10px;
+}
+
+#fb
+{
+   /*+placement: 0px 8px;*/
+   position: relative;
+   left: 0px;
+   top: 8px;
+}
+
+#twitter
+{
+   /*+placement: 3px 8px;*/
+   position: relative;
+   left: 3px;
+   top: 8px;
+}
+
+/*.dropDown
+{
+   width: 111px;
+   border: none;
+   font-family: 'Oswald', sans-serif;
+   font-size: 18px;
+   text-decoration: none;
+}
+*/
+#navHeader
+{
+   position: absolute;
+   top: 18px;
+   left: 274px;
+}
+
+#dd select
+{
+   background: transparent;
+   width: 105px;
+   padding: 5px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 16px;
+   line-height: 1;
+   border: none;
+   height: 34px;
+   color: #000;
+   font-weight: bold;
+}
+
+#dd
+{
+   display: inline;
+}
+
+header
+{
+   border: 1px solid #D6D6D6;
+   height: 50px;
+   /*+box-shadow: 1px 1px 9px;*/
+   -moz-box-shadow: 1px 1px 9px;
+   -webkit-box-shadow: 1px 1px 9px;
+   box-shadow: 1px 1px 9px;
+}
+
+header a
+{
+   font-family: 'Oswald', sans-serif;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 16px;
+   margin: 0px;
+   padding: 12px;
+   color: black;
+}
+
+#links
+{
+   display: inline-block;
+}
+
+header a:hover
+{
+   border: 1px solid #D6D6D6;
+   background: transparent;
+   font-size: 18px;
+   border-radius: 20px;
+   box-shadow: 1px 1px 4px;
+}
+
+#mainContent
+{  position: absolute;
+   top: 160px;
+   width: 62%;
+   margin: 20px;
+   padding-left: 100px;
+}
+
+#mr
+{
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+   background-color: #FFCC00;
+   color: white;
+   padding: 5px;
+   width: 90px;
+   height: 16px;
+   text-align: center;
+   position: relative;
+   top: 18px;
+}
+
+h1
+{
+   font-family: sans-serif;
+   font-weight: 800;
+   font-size: 36px;
+}
+
+#add1
+{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+
+}
+
+#add2
+{
+   position: absolute;
+   top: 180px;
+   left: 1040px;
+}
+
+
+#image > img
+{
+   /*+placement: 2px -9px;*/
+   position: relative;
+   left: 2px;
+   top: -9px;
+}
+
+#details{width: 82%;
+         position: relative;
+         top: -72px;
+         left: 75px;}
+         
+#details > p{font-size: 13px;
+             line-height: 0.5;
+             font-weight: bold;
+             font-family: sans-serif;}
+
+#authorName{color: #6F6F6F;}
+#inAuthor{border-color: #DDDDDD;
+          border: none;
+          background-color: #DDDDDD;
+          height: 2px;}
+#date{color: #DBDBDB;}
+
+
+img.mainImage{display: block;
+              margin: 0 auto;}
+    
+p.mainPara{color:#5E5E5E;}
+p.mainPara, h2.subHeading{font-family: sans-serif;
+                          text-align: center;}    
+      
+#otherLinks
+{  position: absolute;
+   top: 4400px;
+   margin: 20px;
+   padding-left: 100px;
+   font-family: sans-serif;
+}
+
+#otherLinks img{width: 300px;
+                height: 160px;}
+
+#otherLinks > h2{width: 360px;
+                }
+      
+#link{position: absolute;
+       top: 68px;
+       left: 500px;}  
+       
+#link > h2{width: 360px;}  
+
+.relatedItem{font-family: sans-serif;
+             position: absolute;
+             top: 5100px;
+             left: 130px;
+             font-size: 14px;
+}
+.relatedItem > h5{font-weight: 800;
+                  color: #555555;}
+.relatedItem a{text-decoration: none;
+               color:#FFCD05; } 
+               
+.relatedItem a:hover{color:#6F6F6F;}                                    
+
+#linkStrip{position: absolute;
+           top: 5180px;    
+           left: 270px;
+           background-color:;}
+           
+           
+footer{position: absolute;
+       top: 5400px;
+       width: 100%;
+       height: 460px;
+       font-family: sans-serif;
+       color: white;
+       background-color: #444444;}           
+
+
+#map{position: relative;
+     left: 90px;
+     top: 30px;}
+     
+#recentPosts{position: absolute;
+            left: 500px;
+            top: 30px;
+            width: 400px;
+            height: 400px;}     
+          
+#recentPosts > a{text-decoration: none;
+                 color: #919191;
+                 font-weight: 800;
+                 font-family: sans-serif;
+                 font-size: 12px;
+                 }          
+
+#recentPosts > a:hover{color: white;}
+            
+#tags{position: absolute;
+      left: 1000px;
+      top: 30px;
+      width: 400px;
+      height: 400px;
+      }
+      
+      
+#tags > a{text-decoration: underline;
+          font-family: sans-serif;
+          font-size: 10px;
+          font-weight: 800;
+          color: #919191;
+          display: inline-block;
+          background-color: #555555;
+          padding: 3px;
+          margin: 2px;}                  
+
+#tags > a:hover{color: white;}          

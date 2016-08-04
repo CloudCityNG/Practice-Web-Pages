@@ -1,0 +1,132 @@
+body{font-family: sans-serif;}
+
+#header{
+        position: relative;
+        width: 100%;
+		background: #111111 url(images/header-bg.jpg) no-repeat;
+		background-size: cover;
+
+
+}
+
+
+#assembly{color: white;
+          font-size: 2.5em;
+          padding-left: 6em;
+
+          }
+
+
+#assembly1{color: white;
+          font-size: 5em;
+          text-align:center;
+
+          }
+
+.headerLink{width: 100%;
+              color: white;
+              font-weight: bold;
+              text-align: center;
+ 
+ }
+
+.headerLinks{text-decoration: none;
+             font-size: 1em;
+             color: white;
+             font-weight: bold;
+             margin: 5px;
+             padding: 15px;
+}
+
+.headerLinks:hover{
+                    background: #2651A8;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    color: white;
+                    }          
+
+
+.border{margin-top: 200px;
+        box-shadow: 5px 1px 20px white;
+}
+
+.c1{margin-bottom: 0.3em;}
+
+.c2{margin-top: 0.4em;}
+
+.row2a{margin-top: 200px;
+      text-align: center;
+      color: white;
+      font-family: 'Didact Gothic', sans-serif;}
+
+#ucl{font-size: 5em;
+}
+
+#uclSub{font-size: 2em;
+        color: #A8A8A8}
+
+#openAcount{width: 10em;
+            height: 4em;
+            background-color: #2651A8;
+            border: none;
+            color: white;
+            font-weight: 800;
+            font-size: 1.5em;}
+
+#openAcount:hover{box-shadow: 0px 1px 20px white;}            
+#openAcount:active{font-size: 1.6em;}
+
+
+.row1b, .row2b{text-align:center;
+               font-family: 'Didact Gothic', sans-serif;}
+
+.container2{margin-top: 3em;
+            margin-bottom: 3em;}
+
+#welcome{font-size: 3.6em;}
+#help{font-size: 2em;
+      }
+
+.row2b h2{font-size: 2.2em;}
+.row2b p{font-weight: bold;}
+
+
+.moreInfo{padding: 1.1em;
+          background-color: #2651A8;
+          color: white;
+          font-weight: bold;
+         }               
+
+.container3{padding-top:10em;
+            padding-bottom: 10em;
+            background-color: #2651A8;}
+
+.row1c{text-align: center;
+       color: white;
+       font-family: 'Didact Gothic', sans-serif;
+       }
+
+#history{font-size: 4em;}
+#firstC{font-size: 2em;}
+#para{font-size: 1.2em;}
+
+
+.container3 .moreInfo{background-color: white;
+                      color: #2651A8;
+                      width: 8em;
+
+                      font-size: 1.6em;
+                    }
+
+.container4{padding-top:4em;
+            padding-bottom:4em;
+            background-color: #181818;}
+
+.row1d{text-align: center;
+       color: #515858;
+       font-family: 'Didact Gothic', sans-serif;
+       }
+
+#footer{font-size: 1em;}
+
+.siteInfo{color: #A1A1A1;}

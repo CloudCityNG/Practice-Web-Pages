@@ -1,0 +1,95 @@
+body{font-family: sans-serif;}
+
+.header{
+        position: relative;
+        width: 100%;
+		background: #111111 url(images/light_bulb.jpg) no-repeat;
+		background-size: cover;
+        color: white;
+        text-shadow: 1px 1px 10px black;
+
+}
+
+
+#heading1{font-size: 4.5em;
+          }
+
+
+#para1{font-size: 1.5em;
+       }          
+
+.header{padding: 7em;
+       }
+
+.row1b{text-align: center;
+       padding: 2em;}
+#heading2{font-size: 3.0em;
+          color: #DD845A;}
+
+
+#para2{font-size: 1.6em;
+       color: #A29595;
+}
+
+.col-md-4{margin: 0;
+          padding: 0;
+          
+          }
+
+.row2b{border-top: 1px solid black;
+       border-bottom: 1px solid black;
+       }
+
+
+#imgText{text-align: center;
+         color: white;
+         font-size: 3em;
+         padding-top: 1em;
+         padding-bottom: 1em;
+         text-shadow: 1px 1px 10px black; }
+
+.pic1{background:url(./images/mung_beans.jpg);}
+.pic2{background:url(./images/coffee_beans_1.jpg);}
+.pic3{background:url(./images/grapes.jpg);}
+
+.pic1, .pic2, .pic3{background-size: cover;
+                    background-position: 50% 50%;}
+
+.pic1:hover{border: 5px solid black;}
+.pic2:hover{border: 5px solid black;}
+.pic3:hover{border: 5px solid black;}
+
+.well{width: 18em;
+      margin: 0.8em;
+      background-color: white;}
+
+#heading3{color: #DD845A;}
+
+.heading4{color: #DD845A;}
+
+
+.row3a, .row3c, .row3d, .row4a, .row5a{text-align: center;
+       margin-top: 4em;
+       margin-bottom: 4em;}
+.row3a{margin-bottom: 0em;}
+
+.btn-primary { border-color: #FFA500; background-color: #FFA500;
+}
+.btn-primary:hover { border-color: #FFA500; background-color: #FFA500; }
+
+.map{background: url(./images/map.jpg);
+     background-size: cover;
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;}
+    
+h4{color: #959595;}
+
+.footerLink, p{text-decoration: none;
+            display: block;
+            color: #959595;}
+
+.row6a{margin-top: 4em;
+       margin-bottom: 4em;
+       background-color: antiquewhite;}
+
+.row7a{text-align: center;}

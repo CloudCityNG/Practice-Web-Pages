@@ -1,0 +1,9 @@
+.navbar-right{position: relative;
+              top: 7px;
+              }
+
+.c1, .c3{width: 25%;}
+.c1{float: left;}
+.c3{float: right;}
+
+.c2{width: 50%;}

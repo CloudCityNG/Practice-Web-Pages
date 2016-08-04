@@ -1,0 +1,102 @@
+#header{background-color: #3B5998;
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+        color: white;
+        }
+
+#facebook{font-size: 45px;
+   padding: 0px;
+   margin: 0px;
+   position: absolute;
+   left: 250px;
+   top: 40px;
+   
+   }
+
+#username{position: absolute;
+          top: 33px;
+          left: 800px;}
+#pw{position: absolute;
+          top: 33px;
+          left: 950px;}
+
+#login{position: absolute;
+       top:65px;
+       left:1100px;}
+
+
+
+#middle{background-color: #F5F6FA;
+        height: 100%;
+        width: 96.15%;
+        padding:20px;
+        position: absolute;
+        top: 127px;
+        left: px;}
+
+#image{background-color: blue;
+       background-color: inherit;}
+ 
+#forms{background-color: blue;
+       background-color: inherit;}
+ #forms_heading{background-color: blue;
+       background-color: inherit;}
+ 
+ #inner{background-color: blue;
+       background-color: inherit;}
+ 
+ 
+ 
+#image{position: absolute;
+       top: 200px;
+       left: 200px;
+       }
+       
+#forms{position: absolute;
+       top: 200px;
+       left: 700px;
+       width: 428px;
+
+       }
+       
+#forms_heading{position: absolute;
+               top: -25px;
+               left: 80px;}
+         
+form{margin: 10px;
+     margin-left: 0px;}
+         
+#inner{position: absolute;
+      top: 100px;
+      left: 80px;}    
+
+   
+.x{height:28px;
+  width: 205px;}   
+ 
+ .y{height: 28px;
+   width: 428px;} 
+
+.dob{padding: 0px;
+     margin: 0px;}
+    
+.date{height: 28px;}
+ 
+#dob_text{font-size: 12px;
+          position: absolute;
+          left: 180px;
+          top: 212px;
+          font-weight: bold;}
+
+#signup_text{font-size: 12px;
+             position: absolute;
+             left: 0px;
+             top: 290px;
+             font-weight: bold;
+             }
+
+a:link{text-decoration: none;}
+
+.dob, .name{display: inline;}

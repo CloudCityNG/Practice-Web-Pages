@@ -1,0 +1,12 @@
+.formText{display: inline-block;
+     width: 350px;
+     height: 30px;}
+
+input{height: 30px;
+      }
+
+input, textarea{width: 290px;
+                margin: 5px;}
+
+#msg{position: relative;
+     top: -140px;}

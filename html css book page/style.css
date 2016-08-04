@@ -1,0 +1,88 @@
+body{
+   background-color: #DCDCDC;
+}
+back-page{
+    background-color: rgb(231,228,225);
+    width: 728;
+    height: 850;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 4px #000;
+    overflow: hidden;
+}
+.backpage-lines{
+background-color: whitesmoke;
+width: 1300px;
+height: 68px;
+position: absolute;
+transform: rotate(-46deg);
+left: -373px;
+top: 400px;
+
+
+}
+
+html, body{height: 100%;}
+.textbox{
+    background-color: rgb(55,48,55);
+    width:80%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 60px;
+    left: 155px;
+    overflow: hidden;
+}
+.box-stripe{
+    background-color: rgb(253,69,135);
+    width:100%;
+    height:68px;
+    position: absolute;
+    transform: rotate(-46deg);
+    left: -205px;
+top: 89px;
+}
+#text{
+    float:right;
+    padding-right: 44px;
+    text-align: right;
+}
+h1{
+    color: rgb(255,255,255);
+    font-weight: normal;
+    font-size: 230px;
+    margin: 0px;
+}
+h2{
+    color: rgb(253,69,135);
+    font-style: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 100;
+    margin-top: -6px;
+    line-height: 1;
+    font-family: sans-serif;
+}
+.chap-about{
+    color: #DCDCDC;
+    bottom: 50px;
+    position: absolute;
+    left: 20px;    
+}
+ul,li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-bottom: -6px;
+}
+    li:before{
+    content: "";
+    border-color: transparent #FFF;
+    border-style: solid;
+    display: block;
+    left: -19px;
+    top: 16px;
+    margin: 3px;
+    position: relative;
+    border-width: 5px 0px 5px 10px;
+    }

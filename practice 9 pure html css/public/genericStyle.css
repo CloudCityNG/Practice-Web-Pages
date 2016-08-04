@@ -1,0 +1,111 @@
+@font-face { 
+  font-family: News Cycle; 
+    src: url('./fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('./fonts/NewsCycle-Regular.ttf'); 
+} 
+
+body{font-family: 'News Cycle', Arial, sans-serif;}
+
+#header{background: #353535;
+        width: 100%;
+        height: 180px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        }
+
+#header > h1{color: white;
+             text-align: center;
+             font-size: 2.9em;
+             margin-bottom: 6px;}
+#header small{color: red;}
+
+#navbar ul{list-style-type: none;
+           margin: 0;
+           padding: 0;}
+#navbar a{text-decoration: none;
+          color: white;
+          font-size: 1.2em;
+          font-weight: bold;
+}
+
+#navbar li{display: inline-block;
+          padding: 10px;
+          padding-top: 3px;
+          margin: 15px;
+          }
+
+#navbar li:hover{background: #1766C6;
+                border-radius: 5px;
+                box-shadow: 2px 2px 10px white;}
+
+#navbar{margin:auto;
+        width: 950px;
+        }
+
+#slideShow{background: #0043A8;
+           width: 100%;
+           height: 300px;
+           position: absolute;
+           top: 180px;
+           left: 0px;}
+
+img{display: block;
+    margin: 20px auto;}
+
+#mainContent{position: absolute;
+             left: 0;
+             top: 480px;
+             text-align: justify;
+             width: 950px;
+             margin-left: 236.5px;
+             margin-right: 236.5px;
+             height: 600px;
+             font-family: sans-serif;}
+
+#mainContentLeft{width: 70%;
+                 position: absolute;
+                 top: 0px;
+                 left: 0px;
+                 padding-right: 30px;
+                 margin-right: 20px;  
+}
+
+#mainContentRight{width: 25%;
+                  position: absolute;
+                  top: 0px;
+                  left: 712.5px}
+
+#footer{position: absolute;
+        left: 0;
+        top: 1050px;
+        width: 100%;
+        height: 90px;
+        text-align: center;}
+
+#links{ margin: auto;
+        padding-top: 25px;
+        width: 50%;
+        height: 80px;
+        background: #0043A8;
+        border-radius: 8px;}
+
+#footer a{text-decoration: none;
+          font-size: 1em;
+          color: white;
+          font-weight: bold;
+}
+
+#footer a:hover{text-decoration: underline;}
+
+
+button{background: #0043A8;
+       border-color: #0043A8;
+       border-radius: 15px;
+       color: white;
+       text-shadow: 2px 2px 5px black;
+       padding: 6px;
+       }
+
+button:hover{box-shadow: 2px 3px 10px black;}
+

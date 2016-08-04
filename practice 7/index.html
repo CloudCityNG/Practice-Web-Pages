@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Getting Started | The Scala Programming Language</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <!--<link rel="icon" type="image/png" href="./images/favicon.png">-->
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.ico">
+
+    <!--Bootstrap css-->
+    <link href = "./css/bootstrap.min.css" rel = "stylesheet">
+
+    <!-- Bootstarp CDN -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+      <div class="container-fluid aboveNav">
+
+          <br>
+      </div>
+      <nav class="navbar navbar-default">
+
+          <div class="container navbar-wrap">
+
+              <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+              <div class="hidden-xs hidden-sm"><a href="#" class="navbar-brand"><img src="./images/scala-logo-white-sm.png" alt="scala icon"></a>
+</div>        
+              <div class="hidden-md hidden-lg"><a href="#" class="navbar-brand"><img src="./images/scala-logo-white-sm.png" width="70em" alt="scala icon"></a>
+</div>           
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+  
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#" class="colorMe">DOCUMENTATION</a></li>
+                  <li><a href="#" class="colorMe">DOWNLOAD</a></li> 
+                  <li><a href="#" class="colorMe">COMMUNITY</a></li>                 
+                  <li><a href="#" class="colorMe">CONTRIBUTE</a></li>
+                  <div class="hidden-sm hidden-xs linkIcons">
+                        <li><a href="#"><img src="./images/github.PNG" alt="" width="30px" height="30px"></a></li>
+
+                  </div>
+
+                  <div class="hidden-sm hidden-xs linkIcons">
+                        <li><a href="#"><img src="./images/twitter.PNG" alt="" width="30px" height="30px"></a></li>
+
+                  </div>
+                  
+  
+              </ul>
+          
+          </div>
+          </div>
+
+
+      </nav>
+  
+
+      <div class="container-fluid">
+       
+          <div class="row bellowNav">
+
+              <div class="col-md-1"></div>
+
+              <div class="col-md-7 hidden-xs hidden-sm"><h1>GETTING STARTED</h1>
+			  
+			  </div>
+              <div class="col-md-4"></div>
+
+              <div class="col-sm-12 hidden-md hidden-lg centerText"><h1>GETTING STARTED</h1></div>
+
+          </div>
+      </div>
+
+
+      <div class="container-fluid bg">
+      <div class="container">
+
+          <div class="row mainContent">
+
+              <div class="col-md-8">
+
+                  <br> <br> <br>
+                  <p>The best way to learn Scala depends on what you know already and the way you prefer to learn things. There is a variety of resources available including <a href="#">books</a>, tutorials, training courses, presentations, and of course the Scala compiler for practice. Many people find a good combination is to have one of the Scala books at hand and to start right away trying the examples with the Scala Compiler. On the other hand, you may want to get started with a Scala training course or using the material available online.</p>
+
+
+                  <p>As your knowledge of Scala grows, you will find there is more advanced material and a very friendly <a href="#">Scala community</a> at hand to help you. They all share a passion for Scala and welcome newcomers warmly. Many have written helpful material for programmers new to Scala, will respond to emails asking for help or are sharing neat new techniques, advanced concepts or tools in one of several Scala forums or personal blogs.</p>
+              
+                  <h1>Scala for Programming Beginners</h1>
+
+                  <p>If you are just starting to learn how to code, you will find that a large portion of the material about Scala assumes that you already have some programming experience. There are two valuable resources which we can recommend to programming beginners that will take you directly into the world of Scala:</p>
+
+                  <ul>
+
+                      <li>The online class <a href="#">Functional Programming Principles in Scala</a>, available on coursera. Taught by the creator of Scala, Martin Odersky, this online class takes a somewhat academic approach to teach the fundamentals of functional programming. You will learn a lot of Scala by solving the programming assignments.</li>
+
+                      <li><a href="#">Kojo</a> is an interactive learning environment that uses Scala programming to explore and play with math, art, music, animations and games.</li>
+                  </ul>
+
+                  <h1>Your first lines of code</h1>
+
+                  <h2>The “Hello, world!” Program</h2>
+
+                  <p>As a first example, we use the standard “Hello, world!” program to demonstrate the use of the Scala tools without knowing too much about the language.</p>
+
+                  <pre>
+                  <code>
+                        object HelloWorld {
+                        def main(args: Array[String]): Unit = {
+                            println("Hello, world!")
+                        }
+                        }
+                  </code>
+
+
+                  </pre>
+
+                  <p>The structure of this program should be familiar to Java programmers: it consists of the method main which prints out a friendly greeting to the standard output.
+
+                    <br><br> We assume that both the Scala software and the user environment are set up correctly. For example:</p>
+              
+                  <div class="table-responsive">
+                  <table class="table">
+
+                      <tr>
+                          <th>Envoirnment</th>
+                          <th>Variable</th>
+                          <th>Value(Example)</th>
+                      </tr> 
+
+                      <tr>
+                          <td rowspan="2">Unix</td>
+                          <td><code>$PATH</code></td>
+                          <td><code>/usr/local/share/scala</code></td>
+
+                      </tr>
+                      <tr>
+                          
+                          <td><code>$SCALA_HOME</code></td>
+                          <td><code>$PATH:$SCALA_HOME/bin</code></td>
+                      </tr>
+
+                      <tr>
+                          <td rowspan="2">Windows</td>
+                          <td><code>%SCALA_HOME%</code></td>
+                          <td><code>c:\Progra~1\Scala</code></td>
+
+                      </tr>
+                      <tr>
+                          
+                          <td><code>%PATH%</code></td>
+                          <td><code>%PATH%;%SCALA_HOME%\bin</code></td>
+                      </tr>
+
+                  </table>
+                      
+                  </div>                  
+
+                  <h2>Run it interactively!</h2>
+
+                  <p>The <code>scala</code> command starts an interactive shell where Scala expressions are interpreted interactively.</p>
+             
+                  <pre>
+
+                      <code>
+                            > scala
+                            This is a Scala shell.
+                            Type in expressions to have them evaluated.
+                            Type :help for more information.
+                            scala> object HelloWorld {
+                                |   def main(args: Array[String]): Unit = {
+                                |     println("Hello, world!")
+                                |   }
+                                | }
+                            defined module HelloWorld
+                            scala> HelloWorld.main(Array())
+                            Hello, world!
+                            scala>:q
+                            >                          
+                      </code>
+                  </pre>
+             
+                  <p>The shortcut <code>:q</code> stands for the internal shell command <code>:quit</code> used to exit the interpreter.</p>
+              
+                  <h2>Compile it!</h2>
+
+                  <p>The <code>scalac</code> command compiles one (or more) Scala source file(s) and generates Java bytecode which can be executed on any <a href="#">standard JVM</a>. The Scala compiler works similarly to <code>javac</code>, the Java compiler of the <a href="#">Java SDK</a>.</p>
+              
+                  <code>> scalac HelloWorld.scala</code>
+              
+                  <p>By default <code>scalac</code> generates the class files into the current working directory. You may specify a different output directory using the <code>-d</code> option.</p>
+              
+                  <code>> scalac -d classes HelloWorld.scala</code>
+
+                  <h2>Execute it!</h2>
+
+                  <p>The <code>scala</code> command executes the generated bytecode with the appropriate options:</p>
+
+                  <code>> scala HelloWorld</code>
+                  
+                  <p><code>scala</code> allows us to specify command options, such as the <code>-classpath</code> (alias <code>-cp</code>) option:</p>
+              
+                  <code>> scala -cp classes HelloWorld</code>
+              
+                  <p>The argument of the <code>scala</code> command has to be a top-level object. If that object extends trait <code>App</code>, then all statements contained in that object will be executed; otherwise you have to add a method <code>main</code> which will act as the entry point of your program.
+
+                  <br><br>Here is how the “Hello, world!” example looks like using the <code>App</code> trait:</p>
+
+                  <h2>Script it!</h2>
+
+                  <p>We may also run our example as a shell script or batch command (see the examples in the man pages of the <code>scala</code> command).
+
+                  <br><br>The <code>bash</code> shell script <code>script.sh</code> containing the following Scala code (and shell preamble)</p>
+
+                  <pre>
+
+                        <code class="code">
+                            #!/bin/sh
+                            exec scala "$0" "$@"
+                            !#
+                            object HelloWorld extends App {
+                            println("Hello, world!")
+                            }
+                            HelloWorld.main(args)
+
+                        </code>
+
+                  </pre>             
+
+
+                  <p>can be run directly from the command shell:</p>
+
+                  <code>> ./script.sh</code>
+
+                  <p><b>Note:</b> We assume here that the file <code>script.sh</code> has execute access and the search path for the <code>scala</code> command is specified in the <code>PATH</code> environment variable.</p>
+              
+              </div>
+
+              <div class="col-md-4 hidden-sm hidden-xs ">
+
+                  <br> <br> <br>
+							
+							<div data-spy="affix" data-offset-top="0">                  
+								  <i>Contents</i>
+
+								  <h4>Scala for Programming Beginners <br>Your first lines of code</h4>
+								  
+								  <a class="aa" href="#">The "Hello, world!" Program</a><br>
+								  <a class="aa" href="#">Run it interactively!</a><br>
+								  <a class="aa" href="#">Compile it!</a><br>
+								  <a class="aa" href="#">Execute it!</a><br>        
+								  <a class="aa" href="#">Script it!</a><br>
+
+								  <br>
+								  <p><a class="aa" href="#"><b>Problem with this page?</b> Please help us fix it!</a></p>
+ </div>
+                          
+
+
+              </div>
+
+          </div>
+
+      </div>
+
+
+      </div>
+
+
+      <div class="container-fluid footer">
+
+          <div class="container">
+
+          <div class="row">
+
+              <div class="col-md-1"></div>
+              
+              <div class="col-md-2">
+
+                  <h2>DOCUMENTATION</h2>
+                  <a href="#">Getting Started</a>
+                  <a href="#">API</a>
+                  <a href="#">Overviews/Guides</a>
+                  <a href="#">Tutorials</a>
+                  <a href="#">Language Specification</a>              
+
+              </div>
+
+              <div class="col-md-2">
+
+                  <h2>DOWNLOAD</h2>
+                  <a href="#">Stable Release</a>
+                  <a href="#">Development Release</a>
+
+              </div>
+              <div class="col-md-2">
+
+                  <h2>COMMUNITY</h2>
+                  <a href="#">Community</a>
+                  <a href="#">Mailing Lists</a>
+                  <a href="#">Chat Rooms & More</a>
+                  <a href="#">Libraries and Tools</a>
+                  
+              </div>
+
+              <div class="col-md-2">
+
+                  <h2>CONTRIBUTE</h2>
+                  <a href="#">How to Help</a>
+                  <a href="#">Report an Issue</a>
+                  
+              </div>
+
+              <div class="col-md-2">
+
+                  <h2>SCALA</h2>
+                  <a href="#">Blog</a>
+                  <a href="#">Archive</a>
+                  <a href="#">Code of Conduct</a>
+                  <a href="#">License</a>
+                  
+              </div>
+
+          </div>
+
+          <br><br>
+          <div class="row">
+
+              <div class="col-md-1"></div>
+              <div class="col-md-6">
+
+                  <img src="./images/epfl-logo.png" alt="">
+                  <p>Copyright &copy; 2002-2016 École Polytechnique Fédérale de Lausanne (EPFL) Lausanne, Switzerland</p>
+              </div>
+   
+              <div class="col-md-1"></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-1">
+
+                  <img src="./images/scala-logo-white-sm.png" alt="">
+              </div>
+
+          </div>
+
+          </div>
+
+      </div>
+
+      <!-- Bootstrap JS and JQuery-->
+      <script src="./js/jquery.min.js"> </ script>
+	  
+      <script src = "./js/bootstrap.min.js"> </script>
+</body>
+</html>
